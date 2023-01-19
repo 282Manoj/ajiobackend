@@ -28,5 +28,7 @@ app.listen(8080,async()=>{
     } catch (error) {
         console.log("Trouble connecting to the DB");
     }
+
+    
     console.log('running at 8080');
 })
